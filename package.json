@@ -1,0 +1,23 @@
+{
+  "name": "laravel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.0.0-beta3",
+    "laravel-mix": "^6.0.29",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0"
+  },
+  "dependencies": {
+    "swiper": "^7.0.3"
+  }
+}
