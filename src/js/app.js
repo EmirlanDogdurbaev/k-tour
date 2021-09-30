@@ -64,7 +64,7 @@ window.onscroll = function () {
       document.getElementById("nav-link-3").style.color = "#fff"
       document.getElementById("togg-id").style.backgroundColor = "#fff"
       document.getElementById("togg-id-1").style.backgroundColor = "#fff"
-      document.getElementById("logo").src = "http://kyrgyz-tours.info/sites/default/files/yurtv2_0.png"
+      document.getElementById("logo").src = "./assests/images/logo.png"
     }
     else {
       document.getElementById("navbar").style.backgroundColor = "#fff";
@@ -73,7 +73,7 @@ window.onscroll = function () {
       document.getElementById("nav-link-3").style.color = "#000"
       document.getElementById("togg-id").style.backgroundColor = "#000"
       document.getElementById("togg-id-1").style.backgroundColor = "#000"
-      document.getElementById("logo").src = "http://kyrgyz-tours.info/sites/default/files/yurtv2_0.png"
+      document.getElementById("logo").src = "./assests/images/logo.png"
     }
   }
   else if(currentScrollPos < prevScrollpos) {
