@@ -1,0 +1,35 @@
+.card-about{
+  width: 380px;
+  height: 600px;
+}
+.bg-card{
+  background-image: url(../../../assests/images/card.png);
+  background-position: center;
+  background-size: cover;
+}
+.card-bg{
+  background-image: url(../../../assests/images/card.png);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.card-tour{
+  width: 350px;
+  margin: 10px;
+  background-color: white;
+  box-shadow:  0 5px 10px 0 rgba(0 ,0 , 0 , 0.5);
+}
+.bg-color{
+  background-color: rgba(56 , 55 , 55, 0.63) !important;
+  filter: brightness(90%);
+}
+
+
+
+
+@media (max-width: 700px) {
+  .card-about{
+    width: 100px !important;
+    height: 570px !important;
+  }
+}   
