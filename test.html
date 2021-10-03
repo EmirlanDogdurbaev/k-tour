@@ -8,39 +8,92 @@
     <link href="./dist/app.css" rel="stylesheet" />
   </head>
   <body>
-    <section class="container-fluid vh-100 pt-5 mt-5 bg-img">
-      <h2 class="text-light text-left pt-1 ms-5 display-4 my-1">
-        Leave a request
-      </h2>
-      <div class="mb-3 d-block text-item scroll-item">
-        <div class="text-light ms-5 fs-3">Name</div>
+    <header class="">
+      <nav id="navbar" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img id="logo" src="./assets/logo-white.svg" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="navbar-toggler-iconn">
+              <div id="togg-id" class="togg-icon"></div>
+              <div id="togg-id-1" class="togg-icon"></div>
+            </div>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav flex-row justify-content-center">
+              <a
+                class="nav-link mx-2 mx-sm-3 mx-md-4"
+                id="nav-link-1"
+                href="./about.html"
+                >ABOUT</a
+              >
+              <a
+                class="nav-link mx-2 mx-sm-3 mx-md-4"
+                id="nav-link-2"
+                href="./tours.html"
+                >TOURS</a
+              >
+              <a
+                class="nav-link mx-2 mx-sm-3 mx-md-4"
+                id="nav-link-3"
+                href="./contacts.html"
+                >CONTACT US</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container-fluid vh-100 pt-5 bg-img">
+      <h2 class="text-light text-left ms-5 display-4 pt-5">Leave a request</h2>
+      <div
+        class="
+          mb-3
+          text-item
+          scroll-item
+          col-10 col-sm-10 col-md-8 col-lg-8 col-xl-10 col-xxl-10
+        "
+      >
+        <div class="text-light ms-5 font-title">Name</div>
         <input
           type="text "
-          class="my-1 ms-5 rounded border-0 p-2 w-inp fs-5"
+          class="my-1 ms-5 rounded border-0 p-1 w-inp input-inner"
           placeholder="Name"
         />
       </div>
       <div class="mb-3 d-block scroll-item pt-1 text-item">
-        <div class="text-light ms-5 fs-3">Gmail</div>
+        <div class="text-light ms-5 font-title">Gmail</div>
         <input
           type="text "
-          class="my-1 ms-5 rounded border-0 p-2 w-inp fs-5"
+          class="my-1 ms-5 rounded border-0 p-1 w-inp input-inner"
           placeholder="tester@gmail.com"
         />
       </div>
       <div class="mb-3 d-block scroll-item pt-1 text-item">
-        <div class="text-light ms-5 fs-3">Subject</div>
+        <div class="text-light ms-5 font-title">Subject</div>
         <input
           type="text "
-          class="my-1 ms-5 rounded border-0 p-2 w-inp fs-5"
+          class="my-1 ms-5 rounded border-0 p-1 w-inp input-inner"
           placeholder="Example"
         />
       </div>
       <div class="mb-3 d-block scroll-item pt-1 text-item">
-        <div class="text-light ms-5 fs-3">Message</div>
+        <div class="text-light ms-5 font-title">Message</div>
         <input
           type="text "
-          class="my-1 ms-5 rounded border-0 p-2 w-inp fs-5"
+          class="my-1 ms-5 rounded border-0 p-1 w-inp input-inner"
           aria-label="Sizing example input"
           placeholder="Message"
         />
@@ -53,6 +106,186 @@
         Send message
       </button>
     </section>
+    <footer class="bg-dark">
+      <div class="container pt-5">
+        <div class="d-flex justify-content-between align-items-center col-12">
+          <div class="col-3 d-none d-sm-none d-md-block">
+            <img
+              src="http://kyrgyz-tours.info/sites/default/files/yurtv2_0.png"
+              alt="logo"
+              class="w-100"
+            />
+          </div>
+          <div class="col-12 col-sm-12 col-md-10 col-lg-7 col-xl-6 col-xxl-5">
+            <ul
+              class="
+                p-0
+                d-flex
+                justify-content-lg-around
+                justify-content-xl-around
+                justify-content-xxl-around
+                justify-content-sm-between
+                justify-content-md-around
+                align-items-sm-start
+                justify-content-around
+              "
+              style="list-style: none"
+            >
+              <div class="">
+                <li class="py-1">
+                  <h3 class="text-light font-title">Test</h3>
+                </li>
+                <li class="py-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-light fw-normal font-inner"
+                    >Test</a
+                  >
+                </li>
+                <li class="py-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-light fw-normal font-inner"
+                    >Test</a
+                  >
+                </li>
+                <li class="py-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-light fw-normal font-inner"
+                    >Test</a
+                  >
+                </li>
+              </div>
+              <div>
+                <li class="py-1">
+                  <h3 class="text-light font-title">Quick links</h3>
+                </li>
+                <li class="py-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-light fw-normal font-inner"
+                    >All Expeditions</a
+                  >
+                </li>
+                <li class="py-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-light fw-normal font-inner"
+                    >Test</a
+                  >
+                </li>
+                <li class="py-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-light fw-normal font-inner"
+                    >Test</a
+                  >
+                </li>
+                <li class="py-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-light fw-normal font-inner"
+                    >Test</a
+                  >
+                </li>
+              </div>
+              <div class="d-none d-sm-block">
+                <li class="py-1">
+                  <h3 class="text-light font-title font-title">Links</h3>
+                </li>
+                <li class="py-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-light fw-normal font-inner"
+                    >Test</a
+                  >
+                </li>
+                <li class="py-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-light fw-normal font-inner"
+                    >Test</a
+                  >
+                </li>
+                <li class="py-1">
+                  <a
+                    href="#"
+                    class="text-decoration-none text-light fw-normal font-inner"
+                    >Test</a
+                  >
+                </li>
+              </div>
+            </ul>
+            <span class="container">
+              <ul
+                class="
+                  d-sm-none d-md-none d-lg-none d-xl-none d-xxl-none d-flex
+                  justify-content-around
+                "
+              >
+                <li>
+                  <a href="">
+                    <img
+                      src="https://a.d-cd.net/31af20ds-1920.jpg"
+                      width="35"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img
+                      src="https://a.d-cd.net/31af20ds-1920.jpg"
+                      width="35"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img
+                      src="https://a.d-cd.net/31af20ds-1920.jpg"
+                      width="35"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img
+                      src="https://a.d-cd.net/31af20ds-1920.jpg"
+                      width="35"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+        <hr class="bg-light" />
+
+        <ul
+          class="d-flex justify-content-between pb-4 m-0 ml-0 col-12"
+          style="list-style: none"
+        >
+          <span class="d-none d-sm-flex justify-content-between col-sm-3">
+            <li class="text-light">test</li>
+            <li class="text-light">test</li>
+            <li class="text-light">test</li>
+            <li class="text-light">test</li></span
+          >
+          <span class="d-flex justify-content-between col-11 col-sm-5">
+            <li class="text-light">test</li>
+            <li class="text-light">test</li>
+            <li class="text-light">test</li>
+            <li class="text-light">test</li>
+            <li class="text-light">test</li>
+          </span>
+        </ul>
+      </div>
+    </footer>
 
     <script src="./dist/app.js"></script>
   </body>

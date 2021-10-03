@@ -1,0 +1,27 @@
+.input-inner{
+  font: 17px;
+}
+.w-inp {
+  width: 550px;
+}
+
+@media (max-width: 1100px) {
+  .w-inp{
+    width: 500px;
+  }
+}
+@media (max-width: 700px) {
+  .w-inp{
+    width: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .w-inp{
+    width: 300px;
+  }
+}
+@media (max-width: 420px) {
+  .w-inp{
+    width: 250px;
+  }
+}
